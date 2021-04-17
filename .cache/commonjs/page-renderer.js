@@ -11,26 +11,21 @@ var _react = _interopRequireWildcard(require("react"));
 
 var _propTypes = _interopRequireDefault(require("prop-types"));
 
-var _loader = require("./loader");
-
 var _apiRunnerBrowser = require("./api-runner-browser");
+
+var _findPath = require("./find-path");
 
 // Renders page
 class PageRenderer extends _react.default.Component {
   render() {
-    const props = Object.assign({}, this.props, {
-      pathContext: this.props.pageContext
+    const props = { ...this.props,
+      params: { ...(0, _findPath.grabMatchParams)(this.props.location.pathname),
+        ...this.props.pageResources.json.pageContext.__params
+      }
+    };
+    const pageElement = /*#__PURE__*/(0, _react.createElement)(this.props.pageResources.component, { ...props,
+      key: this.props.path || this.props.pageResources.page.path
     });
-
-    const _apiRunner = (0, _apiRunnerBrowser.apiRunner)(`replaceComponentRenderer`, {
-      props: this.props,
-      loader: _loader.publicLoader
-    }),
-          replacementElement = _apiRunner[0];
-
-    const pageElement = replacementElement || (0, _react.createElement)(this.props.pageResources.component, Object.assign({}, props, {
-      key: this.props.pageResources.page.path
-    }));
     const wrappedPage = (0, _apiRunnerBrowser.apiRunner)(`wrapPageElement`, {
       element: pageElement,
       props

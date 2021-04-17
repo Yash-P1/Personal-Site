@@ -1,16 +1,20 @@
-import React from 'react'
-import { Link } from 'gatsby'
+import React from "react";
+import { Link } from "gatsby";
 
-import Layout from "../components/layout"
+import Layout from "../components/layout";
+import Head from "../components/head";
 
 const AboutPage = () => {
-    return (
-        <Layout>
-            <h1>About Me</h1>
-            <p>I am pursuing MSc. Computer Science at Bishop's University.</p>
-            <p><Link to="/contact">Want to work with me? Reach out.</Link></p>
-        </Layout>
-    )
-}
+  return (
+    <Layout>
+      <Head title="About" />
+      <h1>About Me</h1>
+      <p>I am pursuing Computer Science at Bishop's University</p>
+      <p>
+        <Link to="/contact">Want to work with me? Reach out.</Link>
+      </p>
+    </Layout>
+  );
+};
 
-export default AboutPage
+export default AboutPage;

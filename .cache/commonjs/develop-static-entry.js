@@ -38,8 +38,14 @@ try {
 
 Html = Html && Html.__esModule ? Html.default : Html;
 
-var _default = (pagePath, callback) => {
-  let headComponents = [];
+var _default = ({
+  pagePath
+}) => {
+  let headComponents = [/*#__PURE__*/_react.default.createElement("meta", {
+    key: "environment",
+    name: "note",
+    content: "environment=development"
+  })];
   let htmlAttributes = {};
   let bodyAttributes = {};
   let preBodyComponents = [];
@@ -95,7 +101,8 @@ var _default = (pagePath, callback) => {
     setBodyAttributes,
     setPreBodyComponents,
     setPostBodyComponents,
-    setBodyProps
+    setBodyProps,
+    pathname: pagePath
   });
   (0, _apiRunnerSsr.default)(`onPreRenderHTML`, {
     getHeadComponents,
@@ -103,27 +110,39 @@ var _default = (pagePath, callback) => {
     getPreBodyComponents,
     replacePreBodyComponents,
     getPostBodyComponents,
-    replacePostBodyComponents
+    replacePostBodyComponents,
+    pathname: pagePath
   });
 
-  const htmlElement = _react.default.createElement(Html, Object.assign({}, bodyProps, {
+  const htmlElement = /*#__PURE__*/_react.default.createElement(Html, { ...bodyProps,
     body: ``,
-    headComponents: headComponents.concat([_react.default.createElement("script", {
+    headComponents: headComponents.concat([/*#__PURE__*/_react.default.createElement("script", {
       key: `io`,
       src: "/socket.io/socket.io.js"
+    }), /*#__PURE__*/_react.default.createElement("link", {
+      key: "styles",
+      rel: "stylesheet",
+      href: "/commons.css"
     })]),
     htmlAttributes,
     bodyAttributes,
     preBodyComponents,
-    postBodyComponents: postBodyComponents.concat([_react.default.createElement("script", {
+    postBodyComponents: postBodyComponents.concat([/*#__PURE__*/_react.default.createElement("script", {
+      key: `polyfill`,
+      src: "/polyfill.js",
+      noModule: true
+    }), /*#__PURE__*/_react.default.createElement("script", {
+      key: `framework`,
+      src: "/framework.js"
+    }), /*#__PURE__*/_react.default.createElement("script", {
       key: `commons`,
       src: "/commons.js"
     })])
-  }));
+  });
 
   htmlStr = (0, _server.renderToStaticMarkup)(htmlElement);
   htmlStr = `<!DOCTYPE html>${htmlStr}`;
-  callback(null, htmlStr);
+  return htmlStr;
 };
 
 exports.default = _default;
