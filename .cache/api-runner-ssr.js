@@ -1,6 +1,10 @@
 var plugins = [{
+      name: 'gatsby-plugin-image',
+      plugin: require('/Users/yash/Desktop/Coding/Personal-Site/node_modules/gatsby-plugin-image/gatsby-ssr'),
+      options: {"plugins":[]},
+    },{
       name: 'gatsby-plugin-react-helmet',
-      plugin: require('/Users/yash/Desktop/Coding/Portfolio/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
+      plugin: require('/Users/yash/Desktop/Coding/Personal-Site/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
       options: {"plugins":[]},
     }]
 // During bootstrap, we write requires at top of this file which looks like:
