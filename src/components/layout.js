@@ -18,7 +18,14 @@ const Layout = (props) => {
       </div>
       <div className={layoutStyles.aside}>
         <p>Yash</p>
-        <StaticImage src="../posts/gatsby/messi.jpeg" alt="A dinosaur" />
+        <StaticImage
+          src="../posts/gatsby/messi.jpeg"
+          alt="A dinosaur"
+          placeholder="blurred"
+          layout="fixed"
+          width={200}
+          height={200}
+        />
       </div>
     </div>
   );
