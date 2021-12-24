@@ -14,10 +14,8 @@ const Layout = (props) => {
           <Header />
           {props.children}
         </div>
-        <Footer />
       </div>
       <div className={layoutStyles.aside}>
-        <p>Yash</p>
         <StaticImage
           src="../posts/gatsby/messi.jpeg"
           alt="A dinosaur"

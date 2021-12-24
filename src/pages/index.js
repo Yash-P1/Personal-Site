@@ -3,6 +3,7 @@ import { Link } from "gatsby";
 
 import Layout from "../components/layout";
 import Head from "../components/head";
+import Footer from "../components/footer";
 
 const IndexPage = () => {
   return (
@@ -13,6 +14,7 @@ const IndexPage = () => {
       <p>
         Need a developer? <Link to="/contact">Contact me.</Link>
       </p>
+      <Footer />
     </Layout>
   );
 };
