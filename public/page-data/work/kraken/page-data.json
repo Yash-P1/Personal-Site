@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-blog-js",
+    "path": "/work/kraken",
+    "result": {"data":{"contentfulBlogPost":{"title":"Kraken","publishedDate":"September 30th, 2019","body":{"json":{"data":{},"content":[{"data":{},"content":[{"data":{},"marks":[{"type":"bold"}],"value":"Blockchain-based wallet","nodeType":"text"}],"nodeType":"paragraph"},{"data":{},"content":[{"data":{},"marks":[],"value":"Built an Android Application based reward system to write and read blockchain transactions over a decentralized distributed network. Developed a custom token (KRAK token) based on ERC-20 protocol standard using Solidity Language and Smart contracts. Used Ropsten Testnet by Ethereum for testing immutable transactions. Leveraged MetaMask as a gateway to bridge application with Ethereum platform.","nodeType":"text"}],"nodeType":"paragraph"}],"nodeType":"document"}}}},"pageContext":{"slug":"kraken"}},
+    "staticQueryHashes": ["3159585216"]}

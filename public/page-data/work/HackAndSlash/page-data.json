@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-blog-js",
+    "path": "/work/HackAndSlash",
+    "result": {"data":{"contentfulBlogPost":{"title":"Hack and Slash RPG","publishedDate":"December 25th, 2021","body":{"json":{"nodeType":"document","data":{},"content":[{"nodeType":"paragraph","content":[{"nodeType":"text","value":"Third person 3D Quest RPG","marks":[{"type":"bold"}],"data":{}}],"data":{}},{"nodeType":"paragraph","content":[{"nodeType":"text","value":"Designed environment, Minmap, 3D character, NPC with movement, control and combat. Added aggro range for intuitive melee attack experience. Added logs to assist player complete the quest by locating and defeating the enemy.","marks":[],"data":{}}],"data":{}}]}}}},"pageContext":{"slug":"HackAndSlash"}},
+    "staticQueryHashes": ["3159585216"]}

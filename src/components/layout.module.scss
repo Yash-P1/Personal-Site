@@ -133,8 +133,8 @@ $aside-width: 35%;
   // Setting the width and padding sizes
   @include media(">=large") {
     $aside-width: 20%;
-    $vertical-padding: 50px;
-    $horizontal-padding: 64px;
+    $vertical-padding: 20px;
+    $horizontal-padding: 30px;
 
     width: $aside-width;
     padding: $vertical-padding $horizontal-padding $vertical-padding
@@ -167,4 +167,10 @@ $aside-width: 35%;
     padding: $vertical-padding $horizontal-padding $vertical-padding
       $horizontal-padding;
   }
+}
+
+.bottom {
+  color: white;
+  font-size: 28px;
+  margin-right: 12px;
 }

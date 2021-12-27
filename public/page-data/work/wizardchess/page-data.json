@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-blog-js",
+    "path": "/work/wizardchess",
+    "result": {"data":{"contentfulBlogPost":{"title":"WizardChess","publishedDate":"December 24th, 2021","body":{"json":{"nodeType":"document","data":{},"content":[{"nodeType":"paragraph","content":[{"nodeType":"text","value":"3D Board game","marks":[{"type":"bold"}],"data":{}}],"data":{}},{"nodeType":"paragraph","content":[{"nodeType":"text","value":"Implemented 8x8 board chess game inspired from Wizard chess from popular \"Harry Potter\" book series. Designed 3D chess character animation for movement and combat while following the fundament chess rules. Implemented Character control, NavMesh, Navigation, collision, baked lighting. Added game difficulties using Random and MinMax algorithms in C# with Alpha-Beta pruning.","marks":[],"data":{}}],"data":{}}]}}}},"pageContext":{"slug":"wizardchess"}},
+    "staticQueryHashes": ["3159585216"]}

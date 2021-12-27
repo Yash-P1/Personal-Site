@@ -1,6 +1,6 @@
 import React from "react";
 import Header from "./header";
-import Footer from "./footer";
+import Icons from "../pages/icons";
 import "../styles/index.scss";
 import * as layoutStyles from "./layout.module.scss";
 //import mainImage from "../posts/gatsby/messi.jpeg";
@@ -17,13 +17,13 @@ const Layout = (props) => {
       </div>
       <div className={layoutStyles.aside}>
         <StaticImage
-          src="../posts/gatsby/messi.jpeg"
-          alt="A dinosaur"
+          src="../posts/gatsby/Yash.png"
+          alt="Snow picture"
           placeholder="blurred"
-          layout="fixed"
-          width={200}
-          height={200}
+          width={250}
+          height={250}
         />
+        <Icons />
       </div>
     </div>
   );

@@ -1,5 +1,5 @@
 {
     "componentChunkName": "component---cache-dev-404-page-js",
     "path": "/dev-404-page/",
-    "result": {"data":{"allSiteFunction":{"nodes":[]},"allSitePage":{"nodes":[{"path":"/work/forcewars"},{"path":"/work/weatherapp"},{"path":"/work/debug-node"},{"path":"/work/contentful"},{"path":"/404.html"},{"path":"/404/"},{"path":"/about/"},{"path":"/contact/"},{"path":"/"},{"path":"/work/"}]}},"pageContext":{}},
+    "result": {"data":{"allSiteFunction":{"nodes":[]},"allSitePage":{"nodes":[{"path":"/work/reactCrud"},{"path":"/work/orin"},{"path":"/work/kraken"},{"path":"/work/forcewars"},{"path":"/work/HackAndSlash"},{"path":"/work/wizardchess"},{"path":"/work/weatherapp"},{"path":"/404.html"},{"path":"/404/"},{"path":"/about/"},{"path":"/contact/"},{"path":"/icons/"},{"path":"/"},{"path":"/work/"}]}},"pageContext":{}},
     "staticQueryHashes": []}

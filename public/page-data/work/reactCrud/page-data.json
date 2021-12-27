@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-blog-js",
+    "path": "/work/reactCrud",
+    "result": {"data":{"contentfulBlogPost":{"title":"React-CRUD","publishedDate":"November 30th, 2021","body":{"json":{"nodeType":"document","data":{},"content":[{"nodeType":"paragraph","content":[{"nodeType":"text","value":"Simple CRUD application developed using React.","marks":[],"data":{}}],"data":{}},{"nodeType":"paragraph","content":[{"nodeType":"text","value":"Check out: ","marks":[],"data":{}},{"nodeType":"hyperlink","content":[{"nodeType":"text","value":"Github","marks":[],"data":{}}],"data":{"uri":"https://github.com/Yash-P1/React-CRUD"}},{"nodeType":"text","value":"","marks":[],"data":{}}],"data":{}}]}}}},"pageContext":{"slug":"reactCrud"}},
+    "staticQueryHashes": ["3159585216"]}
