@@ -9,9 +9,20 @@ const AboutPage = () => {
     <Layout>
       <Head title="About" />
       <h1>About Me</h1>
-      <p>I am pursuing Computer Science at Bishop's University</p>
       <p>
-        <Link to="/contact">Want to work with me? Reach out.</Link>
+        As a software developer, I have 4+ years of experience in building
+        innovative games and mobile/web applications. I have been an avid gamer
+        since childhood, now exploring the technical side by creating
+        interesting projects. Here you can find my university projects and some
+        fun-projects I've been working on.
+      </p>
+      <p>
+        Also, I'm recently graduated from Bishop's University studying MSc. in
+        Computer Science.
+      </p>
+      <p>
+        In my free time, you can find me playing FIFA. Hit me up if you're up
+        fot it xD
       </p>
     </Layout>
   );

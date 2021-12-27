@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-blog-js",
+    "path": "/work/orin",
+    "result": {"data":{"contentfulBlogPost":{"title":"Orin","publishedDate":"April 4th, 2018","body":{"json":{"nodeType":"document","data":{},"content":[{"nodeType":"paragraph","content":[{"nodeType":"text","value":"Real-time Bus tracking App","marks":[{"type":"bold"}],"data":{}}],"data":{}},{"nodeType":"paragraph","content":[{"nodeType":"text","value":"Developed two different Android Applications, for bus drivers and students to track real-time location within the app. Used Firebase for backend and real-time updates. Leveraged Google maps API to show map and navigate seamlessly. Used Adobe XD to design intuitive user experience.","marks":[],"data":{}}],"data":{}}]}}}},"pageContext":{"slug":"orin"}},
+    "staticQueryHashes": ["3159585216"]}

@@ -9,9 +9,12 @@ const IndexPage = () => {
     <Layout>
       <Head title="Home" />
       <h1>Hello.</h1>
-      <h2>I'm Yash, a software developer living in Quebec, Canada</h2>
+      <h2>
+        I'm Yash, a Game developer and Indie Game designer based in Montreal.
+      </h2>
       <p>
-        Need a developer? <Link to="/contact">Contact me.</Link>
+        Need a developer? Or have interesting idea to discuss?{" "}
+        <Link to="/contact">Contact me.</Link>
       </p>
       <Footer />
     </Layout>
